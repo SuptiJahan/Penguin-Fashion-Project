@@ -1,0 +1,44 @@
+@media only screen and (min-width:400px) and (max-width:600px) {
+    /*Header area*/
+    section#header-part {
+        margin-bottom: 24px;
+    }
+    .header_area {
+        flex-wrap: wrap;
+    }
+    /*Banner area*/
+    .banner_inner {
+        flex-wrap: wrap;
+    } 
+    .banner_left {
+        padding-top: 6%;
+    }
+    .banner_right img {
+        width: 100%;
+        height: 100%;
+        padding-top: 14px;
+    }
+    /*All product list area*/
+    .title {
+        padding-bottom: 19px;
+    }
+    .ladies_product {
+        flex-wrap: wrap;
+        margin-bottom: -13px;
+    }
+    .jacket_inner {
+        margin-bottom: 30px;
+    }
+    .Boys_product {
+        flex-wrap:wrap ;
+    }
+    /*last section*/
+    .last_content {
+        flex-wrap: wrap;
+    }
+    .content_right img {
+        width: 100%;
+        height: 100%;
+        padding-top: 22px;
+    }
+}
