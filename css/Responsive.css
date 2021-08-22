@@ -45,30 +45,87 @@
         margin-top: 34px;
     }
 }
-@media only screen and (min-width:600px) and (max-width:900px) {
+@media only screen and (min-width:600px) and (max-width:950px) {
     /*Header area*/
     section#header-part {
         margin-bottom: 24px;
     }
     /*Banner area*/
-    
+    .banner_inner {
+        flex-wrap: wrap;
+    }
     .banner_right img {
         width: 100%;
         height: auto;
         padding-top: 73px;
     }
     /*All product list area*/
-    .title {
-        padding-bottom: 19px;
-    }
     .ladies_product {
         flex-wrap: wrap;
-    
     }
-
+    .jacket_inner {
+        margin-top: 38px;
+    }
+    .Boys_product {
+        flex-wrap:wrap;
+    }  
     /*last section*/
-    
+    .last_content {
+        flex-direction: column-reverse;
+    }
+    .content_right img {
+        width: 100%;
+        height: 100%;
+        margin-top: 32px;
+    }
+    .content_left {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .icon {
+        margin: 35px 50px 9px 0;
+    }
+}
+@media only screen and (min-width:951px) and (max-width:1250px) {
+    /*Banner area*/
+    .banner_inner {
+        flex-wrap: wrap;
+    }
+    /*All product list area*/
     .ladies_product {
         flex-wrap: wrap;
-    } 
+    }
+    .jacket_inner {
+        margin: 39px 78px 0 0;
+    }
+    .Boys_product {
+        flex-wrap: wrap;
+    }
+    /*last section*/
+    .last_content {
+        flex-direction: column-reverse;
+    }
+    .content_right img {
+        width: 100%;
+        height: 100%;
+    }
+    .content_left {
+        margin-top: 17px;
+    }
+    .icon {
+        margin: 4% 9% 0 0;
+    }
+}
+@media only screen and (min-width:1251px) and (max-width:1500px) {
+    /*All product list area*/
+    .ladies_product {
+        flex-wrap: wrap;
+    }
+    .jacket_inner {
+        margin: 36px 25px 0 0;
+    }
+/*last section*/
+    .icon {
+        margin: 40px 60px 0 0;
+    }
 }
