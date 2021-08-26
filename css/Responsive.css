@@ -1,4 +1,4 @@
-@media only screen and (min-width:400px) and (max-width:599px) {
+@media only screen and (max-width:400px) {
     /*Header area*/
     section#header-part {
         margin-bottom: 24px;
@@ -86,7 +86,7 @@
         margin: 35px 50px 9px 0;
     }
 }
-@media only screen and (min-width:951px) and (max-width:1250px) {
+@media only screen and (min-width:951px) and (max-width:1360px) {
     /*Banner area*/
     .banner_inner {
         flex-wrap: wrap;
@@ -116,7 +116,7 @@
         margin: 4% 9% 0 0;
     }
 }
-@media only screen and (min-width:1251px) and (max-width:1500px) {
+@media only screen and (min-width:1361px) and (max-width:1600px) {
     /*All product list area*/
     .ladies_product {
         flex-wrap: wrap;
